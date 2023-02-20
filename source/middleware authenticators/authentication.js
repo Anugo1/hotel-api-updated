@@ -8,4 +8,4 @@ const authorize = async (req, res, next) => {
       next();
     };
     
-    module.exports = authorize;   
+    module.exports = authentication;   
